@@ -28,16 +28,16 @@ cfg_get()
   }
 
   /* Get the configs values */
-  config_lookup_string(&cfg, "daemon_user");
-  config_lookup_string(&cfg, "daemon_dir");
-  config_lookup_string(&cfg, "irc_server");
-  config_lookup_int(&cfg, "irc_port");
-  config_lookup_string(&cfg, "irc_channel");
-  config_lookup_string(&cfg, "bot_nickname");
-  config_lookup_string(&cfg, "bot_realname");
-  config_lookup_string(&cfg, "bot_name");
-  config_lookup_string(&cfg, "auth_pwd");
-  config_lookup_string(&cfg, "join_msg");
+  config_lookup_string(&cfg, "daemon_user", &daemon_user);
+  config_lookup_string(&cfg, "daemon_dir", &daemon_dir);
+  config_lookup_string(&cfg, "irc_server", &irc_server);
+  config_lookup_int(&cfg, "irc_port", &irc_port);
+  config_lookup_string(&cfg, "irc_channel", &irc_channel);
+  config_lookup_string(&cfg, "bot_nickname", &bot_nickname);
+  config_lookup_string(&cfg, "bot_realname", &bot_realname);
+  config_lookup_string(&cfg, "bot_name", &bot_name);
+  config_lookup_string(&cfg, "auth_pwd", &auth_pwd);
+  config_lookup_string(&cfg, "join_msg", &join_msg);
 
   /* Get the allowed nicks */
   allowed_nicks = get_config_array(&cfg, "allowed_nicks");

@@ -18,7 +18,7 @@ struct config_t cfg;
 const char *daemon_user;
 const char *daemon_dir;
 const char *irc_server;
-long irc_port;
+int irc_port;
 const char *bot_nickname;
 const char *bot_name;
 const char *bot_realname;

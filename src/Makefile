@@ -6,7 +6,7 @@ CC=		cc
 INCLUDE:=	-I./include
 CFLAGS=		-Wall -ansi -D_GNU_SOURCE ${INCLUDE}
 LDFLAGS:=	-L/usr/lib
-LIBS=		-lconfig -lircclient -lsqlite3
+LIBS=		-lconfig -lircclient -lsqlite3 -lssl
 OBJ=		${SRC:.c=.o}
 SRC=		cfg.c cmd.c daemon.c database.c events.c log.c main.c
 
