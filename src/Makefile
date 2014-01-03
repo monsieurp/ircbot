@@ -1,4 +1,4 @@
-# Makefile for ircbot
+# Makefile to compile the sources
 
 UNAME!=		/usr/bin/uname
 EXEC=		ircbot
