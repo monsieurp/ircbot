@@ -1,0 +1,10 @@
+BEGIN TRANSACTION;
+CREATE TABLE responses (id INTEGER PRIMARY KEY, message TEXT, time DATE);
+CREATE TABLE quotes (id INTEGER PRIMARY KEY, message TEXT, time DATE);
+CREATE TRIGGER response_trigger AFTER INSERT ON responses 
+BEGIN UPDATE responses SET time = DATETIME('NOW') WHERE rowid = new.rowid;
+END;
+CREATE TRIGGER quotes_trigger AFTER INSERT ON quotes 
+BEGIN UPDATE quotes SET time = DATETIME('NOW') WHERE rowid = new.rowid;
+END;
+COMMIT;

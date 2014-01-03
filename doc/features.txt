@@ -1,0 +1,16 @@
+* channel logging [DONE]
+
+* quotes recording [DONE], and replaying (!quote to store [DONE], we need a 2nd command to replay the quote)
+
+* prints ctcp version on joins [DONE]
+
+* launch himself as a user of the system
+
+* chroot into a dir
+
+* url recording (sqlite, can be used on a website, or anything)
+ (url tagging ? so that we can search urls via tag, from the bot, or anywhere else (website ?))
+
+* real time rss reader
+
+* viedemerde.fr and bashfr.org parser (!{vdm,bashfr}, or !{vdm,bashfr} #) <- really usefull ?

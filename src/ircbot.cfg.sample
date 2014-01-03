@@ -1,0 +1,11 @@
+daemon_user="ircbot";
+daemon_dir="/usr/home/public/ircbot";
+irc_server="irc.freenode.net";
+irc_port=6666;
+irc_channel="#boulz.org";
+bot_nickname="printf0";
+bot_name="Dont ask to ask, just ask.";
+bot_realname="~printf0";
+join_msg="(c) boulz.org";
+allowed_nicks=["kimelto", "monsieurp", "ro", "zecrazytux", "Khazou"];
+forbidden_words=["kikoolol", "ctb", "cmb", "dtc", "fdp"];

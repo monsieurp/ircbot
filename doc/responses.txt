@@ -1,0 +1,69 @@
+# First you have to create your own database. Use the file create.txt this ways:
+# sqlite3 irc.db < create.txt
+# Then, use this command to generate an INSERT INTO file:
+# sed '1,6d' responses.txt | awk -v a="'" -F= '{print "INSERT INTO responses (message) VALUES (" a $2 a ");"}' > insert.txt
+# Finally, insert the quotes into the database:
+# sqlite3 irc.db < insert.txt
+=perso jpréfère Linux :/
+=tain les idées de OUF que j ai
+=bon, quand je rentrerais, ca sera certainement pas terminé en fait
+=comme le lapin dans Alice au pays des merveilles
+=non c est faux
+=nuit
+=Zank1 de Rouen
+=et là c est pas ma spécialité
+=oui mais nan
+=tu cast ton malloc .. ou pas
+=le type de void ? LOL
+=et là j ai pris ma caisse et jme suis cassé
+=250 € pour 3 confs, sont gentils les gars de bsdfrance
+=mes best friends c est bsdfrance <3
+=5000 €, 50 jours, 5 étudiants
+=plus de 100 000 mails dans la queue, franchement bravo
+=t as vu ça ?
+=c est mieux avec strcasestr()
+=lol kimelto est sur facebook
+=fait attention à tux parce quil est SCT
+=c est quand tu utilises vim que ça fait ça
+=qui a installé nano sur shells ?
+=nous au moins on a opencvs
+=ben cvs ça sux un peu
+=faut windows 2008 server corporate light edition web 20 users + AD + IIS ipv6 64bits
+=j ai déjà cassé 1 manette de megadrive
+=2 de load c est normal ?
+=c est l histoire d un mec qui avait oublié de fermer le parefeu XP
+=attend je backlog
+=et je restart encore pour la 10eme fois 2008 server
+=while(true) mail() je spam ma boite (c) monsieurp
+=I CAN HAZ SKILLZ
+=je vois que vous êtes bien informés hein
+=man man
+=RTFM
+=ça lurke grave sur #labo-linux ..
+=depuis quand romain a des amis ?
+=demande à tux
+=tas testé http://www.freebsd.org/cgi/man.cgi ?
+=pourtant ça marche
+=je sais pas
+=bonjour
+=:)
+=au revoir
+=@!"#1^é
+=écoute un peu ce que je te dis
+=peut-être
+=ca vient de chez qui ca ?
+=et tu prendras le journal en rentrant
+=moi jtrouve que ça marche bien pourtant
+=ah ?
+=j ai entendu ça ouais
+=c est sur la ml d open alors bon..
+=j ai fais ça bien et proprement :)
+=http://francisonline.fr/2008/07/supinfo-vs-epitech/
+=Sebastien Bocahu (France) est sur Facebook.
+=moi j utilise Head & Shoulders pour mes cheveux (c) tux
+=mon nouveau balais est ici -> http://zecrazytux.net/Bordel/seb600.jpg
+=je bite rien
+=moin
+=:(
+=matin
+=ça lit les rss en console ce truc ?
